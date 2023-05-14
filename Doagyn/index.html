@@ -10,204 +10,110 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
         <link rel="stylesheet" href="flex-e-grid-main/assets/css/reset.css">
         <link rel="stylesheet" href="flex-e-grid-main/assets/css/estilos.css">
+        <link rel="stylesheet" href="flex-e-grid-main/assets/css/sobre.css">
     </head>
+
     <body>
         <header class="cabecalho">
             <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
-            <img src="flex-e-grid-main/assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
-            <p class="cabecalho__perfil"><a href="C:\Users\jeffe\OneDrive\Área de Trabalho\Faculdade\Projeto Integrador\Doagyn\cadastro.html">Cadastre-se</a></p>
+            <img src="flex-e-grid-main/assets/img/Logo.png" class="cabecalho__logo" aria-label="Logo">
+            <p class="cabecalho__perfil"><a href="C:\Users\jeffe\projeto-doagyn\Doagyn\cadastro.html">Cadastre-se</a></p>
             <button class="cabecalho__notificacao" arial-label="Notificação"><i></i></button>
         </header>
+
         <nav class="menu-lateral">
-            <img src="flex-e-grid-main/assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
-            <a href="C:\Users\jeffe\OneDrive\Área de Trabalho\Faculdade\Projeto Integrador\Doagyn\index.html" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
-            <a href="#" class="menu-lateral__link menu-lateral__link--videos">Posts</a>
-            <a href="C:\Users\jeffe\OneDrive\Área de Trabalho\Faculdade\Projeto Integrador\Doagyn\instituicoes.html" class="menu-lateral__link menu-lateral__link--instituicoes">Instituições</a>
-            <a href="C:\Users\jeffe\OneDrive\Área de Trabalho\Faculdade\Projeto Integrador\Doagyn\cadastro.html" class="menu-lateral__link menu-lateral__link--cadastro">Cadastro</a>
-            <a href="C:\Users\jeffe\OneDrive\Área de Trabalho\Faculdade\Projeto Integrador\Doagyn\sobre.html" class="menu-lateral__link menu-lateral__link--sobre">Sobre</a>
+            <img src="flex-e-grid-main/assets/img/Logo.png" alt="Logotipo da HZC" class="menu-lateral__logo">
+            <a href="C:\Users\jeffe\projeto-doagyn\Doagyn\index.html" class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo">Início</a>
+            <a href="C:\Users\jeffe\projeto-doagyn\Doagyn\posts.html" class="menu-lateral__link menu-lateral__link--videos">Posts</a>
+            <a href="C:\Users\jeffe\projeto-doagyn\Doagyn\instituicoes.html" class="menu-lateral__link menu-lateral__link--instituicoes">Instituições</a>
+            <a href="C:\Users\jeffe\projeto-doagyn\Doagyn\cadastro.html" class="menu-lateral__link menu-lateral__link--cadastro">Cadastro</a>
         </nav>
 
-        <main class="principal">
-            <h2 class="titulo-pagina">Início</h2>
-            <article class="cartao cartao--destaque destaque-video">
-                <img src="flex-e-grid-main/assets/img/banner-mobile_1.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
-                <img src="flex-e-grid-main/assets/img/banner_1.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
-                <div class="cartao__conteudo">
-                    <p class="cartao__destaque">Publicações em destaque</p>
-                    <h3 class="cartao__titulo">HZC - Titulo</h3>
-                    <p class="cartao__perfil">Bruno Lopez</p>
-                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                    <p class="cartao__info cartao__info--visualizacao">33 visualizações</p>
-                    <button class="cartao__botao cartao__botao--play cartao__botao--destaque">Assistir agora</button>
+        <main>
+            <div class="container">
+                <h2 class="titulo-pagina">Venha doar com segurança</h2>
+                <div class="sobre-site">
+                    <p class="descricao">A Doagyn tem o objetivo de ajudar organizações de caridade a obter recursos através de soluções para captação de doações</p>
+                    <p class="descricao">Nossa missão é facilitar o contato entre a organização e o doador, amplificar o engajamento e dar mais visibilidade e destaques para as ONGs do estado de Goiás </p>
+                    <p class="descricao">Conectar pessoas com as importantes causas para doar com segurança</p>
                 </div>
-            </article>
 
-                <article class="cartao cartao--recentes videos-recentes">
-                    <h3 class="cartao__titulo">Publicações recentes</h3>
-                    <a href="#" class="cartao__link">Ver todos</a>
-                    <ul class="cartao__lista">
-                        <li class="cartao__item">
-                            <img src="flex-e-grid-main/assets/img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
-                            <p class="cartao__item-perfil">Júlia Fonseca</p>
-                        </li>
-                        <li class="cartao__item">
-                            <img src="flex-e-grid-main/assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                            <h4 class="cartao__item-titulo">HZC - Vol.3</h4>
-                            <p class="cartao__item-perfil">Júlia Fonseca</p>
-                        </li>
-                        <li class="cartao__item">
-                            <img src="flex-e-grid-main/assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                            <h4 class="cartao__item-titulo">Vidalocagi- Pescaria na Urca</h4>
-                            <p class="cartao__item-perfil">Júlia Fonseca</p>
-                        </li>
-                        <li class="cartao__item">
-                            <img src="flex-e-grid-main/assets/img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                            <h4 class="cartao__item-titulo">Vidalocagi - Não importa o nível</h4>
-                            <p class="cartao__item-perfil">Júlia Fonseca</p>
-                        </li>
-                        <li class="cartao__item">
-                            <img src="flex-e-grid-main/assets/img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                            <h4 class="cartao__item-titulo">HZC - Love machine</h4>
-                            <p class="cartao__item-perfil">Bruno Lopes</p>
-                        </li>
-                    </ul>
-                </article>
-
-            <section class="secao secao-videos">
-                <h3 class="titulo-secao">Principais Instituições</h3>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/video_1.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/video_2.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/video_3.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/video_4.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-            </section>
-
-            <article class="cartao cartao--recentes produtos-recentes">
-                <h3 class="cartao__titulo">Ultimos Doadores</h3>
-                <a href="#" class="cartao__link">Ver todos</a>
-                <ul class="cartao__lista">
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Sem título 01</h4>
-                        <p class="cartao__item-perfil">Antonio Tebyriçá</p>
-                    </li>
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Sem titulo 02</h4>
-                        <p class="cartao__item-perfil">Antonio Tebyriçá</p>
-                    </li>
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Segurança</h4>
-                        <p class="cartao__item-perfil">Raphael Gibson</p>
-                    </li>
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Malunguisse</h4>
-                        <p class="cartao__item-perfil">Carolina Canavarro</p>
-                    </li>
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Coroa da converse</h4>
-                        <p class="cartao__item-perfil">Nikolas de Murtas</p>
-                    </li>
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Segurança</h4>
-                        <p class="cartao__item-perfil">Raphael Gibson</p>
-                    </li>
-                    <li class="cartao__item">
-                        <img src="flex-e-grid-main/assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                        <h4 class="cartao__item-titulo">Sem título 03</h4>
-                        <p class="cartao__item-perfil">Antonio Tebyriçá</p>
-                    </li>
-                </ul>
-            </article>
-
-            <article class="cartao cartao--destaque destaque-produto">
-                <img src="flex-e-grid-main/assets/img/banner-mobile_2.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
-                <img src="flex-e-grid-main/assets/img/banner_2.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
-                <div class="cartao__conteudo">
-                    <p class="cartao__destaque">Vídeo em destaque</p>
-                    <h3 class="cartao__titulo">HZC - Titulo</h3>
-                    <p class="cartao__perfil">Bruno Lopez</p>
-                    <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                    <p class="cartao__info cartao__info--visualizacao">33 visualizações</p>
-                    <button class="cartao__botao cartao__botao--play cartao__botao--destaque">Assistir agora</button>
+                <h3 class="titulo-pagina">Quem você quer ajudar hoje ? </h3>
+                <p class="descricao">Conheça as ONGs apoiadas pela Doagyn</p>
+                
+                <div class="ongs">
+                    <article class="cartao cartao--destaque">
+                        <img src="flex-e-grid-main/assets/img/buriti_doacoes.jpg" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+                        <img src="flex-e-grid-main/assets/img/buriti_doacoes.jpg" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+                        <div class="cartao__conteudo">
+                            <p class="cartao__destaque">Aparecida de Goiânia</p>
+                            <h3 class="cartao__titulo">Buriti Doações</h3>
+                            <p class="cartao__perfil">Um projeto social que realiza doações de alimentos, principalmente frutas e legumes em Aparecida</p>
+                            <button class="cartao__botao cartao__botao--play cartao__botao--destaque"><a href="#">CONTRIBUA AGORA</a></button>
+                        </div>
+                    </article>
                 </div>
-            </article>
 
-            <section class="secao secao-produtos">
-                <h3 class="titulo-secao">Camisas mais recentes</h3>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/produto_1.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/produto_2.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/produto_3.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-                <article class="cartao">
-                    <img src="flex-e-grid-main/assets/img/produto_4.png" alt="Vídeo" class="cartao__imagem">
-                    <div class="cartao__conteudo">
-                        <p class="cartao__perfil">Bruno Lopez</p>
-                        <h3 class="cartao__titulo">HZC - Titulo</h3>
-                        <p class="cartao__info cartao__info--tempo">33 minutos</p>
-                        <button class="cartao__botao cartao__botao--play" aria-label="Assistir agora"></button>
-                    </div>
-                </article>
-            </section>
+                <div class="ongs">
+                    <article class="cartao cartao--destaque">
+                        <img src="flex-e-grid-main/assets/img/lar_jesus_menino.jpg" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+                        <img src="flex-e-grid-main/assets/img/lar_jesus_menino.jpg" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+                        <div class="cartao__conteudo">
+                            <p class="cartao__destaque">Goiânia</p>
+                            <h3 class="cartao__titulo">Lar Jesus Menino</h3>
+                            <p class="cartao__perfil">O Lar Jesus Menino é uma instituição não governamental que acolhe crianças carentes em situação de risco, assegurando-lhes moradia, alimentação, educação, lazer e tratamentos médico, psicológico e odontológico. </p>
+                            <button class="cartao__botao cartao__botao--play cartao__botao--destaque"><a href="#">CONTRIBUA AGORA</a></button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="ongs">
+                    <article class="cartao cartao--destaque">
+                        <img src="flex-e-grid-main/assets/img/terra_livre.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+                        <img src="flex-e-grid-main/assets/img/terra_livre.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+                        <div class="cartao__conteudo">
+                            <p class="cartao__destaque">Goiânia</p>
+                            <h3 class="cartao__titulo">Terra Livre</h3>
+                            <p class="cartao__perfil">O Terra Livre é uma organização privada de Assistência social, sem fins lucrativos e sem vínculos políticos ou religiosos que atua através de arte, educação e solidariedade na defesa dos direitos da criança e do adolescente.</p>
+                            <button class="cartao__botao cartao__botao--play cartao__botao--destaque"><a href="#">CONTRIBUA AGORA</a></button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="ongs">
+                    <article class="cartao cartao--destaque">
+                        <img src="flex-e-grid-main/assets/img/abrigo_comendador.jpg" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+                        <img src="flex-e-grid-main/assets/img/abrigo_comendador.jpg" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+                        <div class="cartao__conteudo">
+                            <p class="cartao__destaque">Aparecida de Goiânia</p>
+                            <h3 class="cartao__titulo">Abrigo Comendador Walmor</h3>
+                            <p class="cartao__perfil">Instituição de Longa Permanência de Idosos com idade acima de 60 anos.</p>
+                            <button class="cartao__botao cartao__botao--play cartao__botao--destaque"><a href="#">CONTRIBUA AGORA</a></button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="ongs">
+                    <article class="cartao cartao--destaque">
+                        <img src="flex-e-grid-main/assets/img/projeto_minha_oportunidade.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
+                        <img src="flex-e-grid-main/assets/img/projeto_minha_oportunidade.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
+                        <div class="cartao__conteudo">
+                            <p class="cartao__destaque">Goiânia</p>
+                            <h3 class="cartao__titulo">OSBM</h3>
+                            <p class="cartao__perfil">As Obras Sociais Dr. Bezerra de Menezes – OSBM, Realiza atividades de interesse social por meio de assistência à comunidade em geral, principalmente às classes de baixa renda numa atuação conjunta com os órgãos públicos, privados e a sociedade. </p>
+                            <button class="cartao__botao cartao__botao--play cartao__botao--destaque"><a href="#">CONTRIBUA AGORA</a></button>
+                        </div>
+                    </article>
+                </div>
+
+                <a href="C:\Users\jeffe\projeto-doagyn\Doagyn\instituicoes.html" class="outros">Ver Mais</a>
+
+
+
+            
+
+
+
         </main>
 
         <footer>
